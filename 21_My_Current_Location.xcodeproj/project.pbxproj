@@ -12,6 +12,8 @@
 		3BAB71481D20E0A10089243F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB71461D20E0A10089243F /* Main.storyboard */; };
 		3BAB714A1D20E0A10089243F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB71491D20E0A10089243F /* Assets.xcassets */; };
 		3BAB714D1D20E0A10089243F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB714B1D20E0A10089243F /* LaunchScreen.storyboard */; };
+		3BAB71551D21BE980089243F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAB71541D21BE980089243F /* CoreLocation.framework */; };
+		3BAB71591D21D93A0089243F /* Earth_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB71581D21D93A0089243F /* Earth_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3BAB71491D20E0A10089243F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BAB714C1D20E0A10089243F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BAB714E1D20E0A10089243F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BAB71541D21BE980089243F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3BAB71581D21D93A0089243F /* Earth_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Earth_icon.png; path = ../../../Earth_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAB71551D21BE980089243F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		3BAB71361D20E0A10089243F = {
 			isa = PBXGroup;
 			children = (
+				3BAB71541D21BE980089243F /* CoreLocation.framework */,
 				3BAB71411D20E0A10089243F /* 21_My_Current_Location */,
 				3BAB71401D20E0A10089243F /* Products */,
 			);
@@ -56,6 +62,7 @@
 			children = (
 				3BAB71421D20E0A10089243F /* AppDelegate.swift */,
 				3BAB71441D20E0A10089243F /* ViewController.swift */,
+				3BAB71581D21D93A0089243F /* Earth_icon.png */,
 				3BAB71461D20E0A10089243F /* Main.storyboard */,
 				3BAB71491D20E0A10089243F /* Assets.xcassets */,
 				3BAB714B1D20E0A10089243F /* LaunchScreen.storyboard */,
@@ -123,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BAB714D1D20E0A10089243F /* LaunchScreen.storyboard in Resources */,
+				3BAB71591D21D93A0089243F /* Earth_icon.png in Resources */,
 				3BAB714A1D20E0A10089243F /* Assets.xcassets in Resources */,
 				3BAB71481D20E0A10089243F /* Main.storyboard in Resources */,
 			);
